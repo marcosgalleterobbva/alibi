@@ -58,8 +58,8 @@ if __name__ == '__main__':
               'numpy>=2.0.0, <3.0.0; python_version >= "3.13"',
               'pandas>=1.0.0, <3.0.0',
               'scikit-learn>=1.0.0, <2.0.0',
-              'spacy[lookups]>=2.0.0, <3.8.0; python_version < "3.13"',
-              'spacy[lookups]>=3.8.0, <3.9.0; python_version >= "3.13"',
+              'spacy[lookups]>=2.0.0, <3.7.0; python_version < "3.13"',
+              'spacy[lookups]>=3.7.0, <3.9.0; python_version >= "3.13"',
               'blis>=0.7.9, <0.8.0; python_version < "3.13"',  # Windows memory issues https://github.com/explosion/thinc/issues/771
               'scikit-image>=0.17.2, <0.23; python_version < "3.13"',  # introduced `start_label` argument for `slic`
               'scikit-image>=0.25.0, <0.27; python_version >= "3.13"',
